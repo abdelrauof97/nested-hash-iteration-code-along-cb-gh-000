@@ -14,8 +14,8 @@ require 'pry'
    }
   
 def remove_strawberry(contacts)
-  contacts["Freddy mercury"][:favorite_ice_cream_flavors].delete("strawberry")
-  contacts
+  contacts["Freddy mercury"][:favorite_ice_cream_flavors]
+  
 end
 binding.pry
 
